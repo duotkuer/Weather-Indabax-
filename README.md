@@ -1,6 +1,6 @@
 # 🌤️ Weather Image Classification using PyTorch
 
-This repository contains a complete solution for classifying weather conditions from images using a fine-tuned EfficientNetB3 model in **PyTorch**. The task was to predict weather types from the **Mendeley Weather Dataset**, aiming to build a high-performing image classifier suitable for real-time applications like weather detection tools.
+This repository contains a complete solution for classifying weather conditions from images using a fine-tuned EfficientNetB3 model in **PyTorch**. The task was to predict weather types from the **Mendeley Weather Dataset**, aiming to build a high-performing image classifier suitable for real-time applications like weather prediction 
 
 ---
 
