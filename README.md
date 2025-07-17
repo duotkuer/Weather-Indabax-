@@ -4,7 +4,7 @@ This repository contains a complete solution for classifying weather conditions 
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 
 - [Objective](#objective)
 - [Dataset](#dataset)
@@ -19,7 +19,7 @@ This repository contains a complete solution for classifying weather conditions 
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 The goal is to classify images into one of the following weather categories:
 - **Cloudy**
@@ -35,7 +35,7 @@ A custom PyTorch training pipeline was built from scratch with a focus on:
 
 ---
 
-## 🗂️ Dataset
+## 🗂 Dataset
 
 - **Source**: Mendeley Weather Dataset  
 - **Classes**: 4  
@@ -44,7 +44,7 @@ A custom PyTorch training pipeline was built from scratch with a focus on:
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 I adopted a rigorous, competition-style approach:
 
@@ -77,7 +77,7 @@ I adopted a rigorous, competition-style approach:
 
 ---
 
-## 🏋️‍♂️ Model Training
+##  Model Training
 
 The training is encapsulated in the provided Jupyter notebook:
 
@@ -91,7 +91,7 @@ These files are essential for the Streamlit app deployment (`weather_app/`).
 
 ---
 
-## 📤 Outputs
+##  Outputs
 
 After successful execution of the notebook, you will have:
 
@@ -109,11 +109,11 @@ After successful execution of the notebook, you will have:
 
 ---
 
-## 📦 `weather_app/` Streamlit Deployment
+##  `weather_app/` Streamlit Deployment
 
 You can deploy your trained model into a lightweight web application with the Streamlit interface.
 
-### 📁 Project Structure
+###  Project Structure
 ```
 weather_app/
 ├── app.py                # Streamlit web app interface
@@ -123,7 +123,7 @@ weather_app/
 
 ---
 
-### 🔧 Setup & Run
+###  Setup & Run
 
 ```bash
 pip install -r requirements.txt
@@ -133,7 +133,7 @@ streamlit run app.py
 
 ---
 
-### 💡 Features
+###  Features
 
 - Upload weather images  
 - Real-time predictions  
@@ -141,9 +141,9 @@ streamlit run app.py
 
 ---
 
-## 🧪 How to Use
+##  How to Use
 
-### ✅ Option 1: Train from Scratch
+###  Option 1: Train from Scratch
 
 1. Open `pytorchindax24.ipynb`  
 2. Run all cells to train the model  
@@ -151,14 +151,14 @@ streamlit run app.py
    - `model.pth`
    - `pytorchsubmission.csv`
 
-### ✅ Option 2: Use Pretrained Files
+###  Option 2: Use Pretrained Files
 
 1. Download `model.pth` and place it in `weather_app/`  
 2. Run the app as described above  
 
 ---
 
-## 📈 Results
+##  Results
 
 | Metric         | Value            |
 |----------------|------------------|
@@ -167,9 +167,9 @@ streamlit run app.py
 | Test Accuracy  | ~93–96%          |
 | Inference Time | < 0.2 sec/image  |
 
-> ⚠️ If train accuracy is 100% but test accuracy is significantly lower, monitor for overfitting.
+> If train accuracy is 100% but test accuracy is significantly lower, monitor for overfitting.
 
-### 🔧 Overfitting Mitigation Strategies
+###  Overfitting Mitigation Strategies
 
 - Stronger regularization  
 - More aggressive data augmentation  
@@ -177,13 +177,13 @@ streamlit run app.py
 
 ---
 
-## 📜 License
+## License
 
 This project is released under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ---
 
-## 🙋‍♂️ Author
+## Author
 
 **Duot Kuer**
 
