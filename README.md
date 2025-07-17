@@ -35,7 +35,7 @@ A custom PyTorch training pipeline was built from scratch with a focus on:
 
 ---
 
-## 🗂 Dataset
+##  Dataset
 
 - **Source**: Mendeley Weather Dataset  
 - **Classes**: 4  
