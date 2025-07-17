@@ -45,7 +45,7 @@ A custom PyTorch training pipeline was built from scratch with a focus on:
 
 ## 🧠 Methodology
 
-We adopted a rigorous, competition-style approach:
+I adopted a rigorous, competition-style approach:
 1. **Data Loading & Preprocessing**
    - Images resized to 300×300
    - Normalization using ImageNet mean and std
@@ -133,6 +133,7 @@ Real-time predictions
 
 Displays weather condition (e.g., "Cloudy", "Rain")
 
+---
 ### 🧪 How to Use
 ✅ Option 1: Train from Scratch
 Open pytorchindax24.ipynb
@@ -150,6 +151,8 @@ Download model.pth and place it in weather_app/
 
 Run the app as described above
 
+---
+
 ### 📈 Results
 Metric	Value
 Train Acc	~100% (Phase 2)
@@ -164,6 +167,8 @@ Stronger regularization
 More aggressive data augmentation
 
 Early stopping
+
+---
 
 ###📜 License
 This project is released under the MIT License. See LICENSE for more information.
