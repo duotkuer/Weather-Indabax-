@@ -27,7 +27,7 @@ The goal is to classify images into one of the following weather categories:
 - **Shine**
 - **Sunrise**
 
-A custom PyTorch training pipeline was built from scratch with a focus on:
+I built a custom PyTorch training pipeline from scratch with a focus on:
 - Performance optimization
 - Avoiding overfitting
 - Streamlined dataset preprocessing
