@@ -96,7 +96,8 @@ These files are essential for the Streamlit app deployment (`weather_app/`).
 After successful execution of the notebook, you will have:
 
 - `model.pth`  
-  🔹 The fine-tuned EfficientNetB3 PyTorch model for inference.
+  🔹Renamed from best_weather_model.pth
+  🔹The fine-tuned EfficientNetB3 PyTorch model for inference.
 
 - `pytorchsubmission.csv`  
   🔹 A CSV file formatted for Kaggle submission:
